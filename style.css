@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fix-width{
+    width: 1200px;
+    margin: auto;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.hedder{
+    height: 80px;
+    background-color: #000000;
+}
+.hedder-left{
+    float: left;
+    width: 40%;
+}
+.hedder-left img{
+    height: 60px;
+    margin: 10px 0px;
+}
+.hedder-right{
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+.hedder-right ul{}
+.hedder-right ul li{
+    display: inline-block;
+    position: relative;
+}
+.hedder-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 20px;
+    line-height: 75px;
+    transition: .4s;
+}
+.hedder-right ul li ul{
+    position: absolute;
+    color: #000000;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    background-color: #fff;
+    left: 0;
+    top: 100%;
+    width: 200px;
+    transform: scaleY(0);
+    transform-origin: top center;
+    text-align: center;
+}
+.hedder-right ul li ul li{}
+.hedder-right ul li ul li a{
+    color: #000000;
+    top: .4s;
+}
+.hedder-right ul li:hover ul{
+    opacity: 1;
+    visibility:visible;
+    transform:scaleY(1) ;
+}
+
+/* BANER */
+.baner{
+    background-image: url("https://scontent.fdac96-2.fna.fbcdn.net/v/t1.15752-9/434051134_967982277693436_840336107057566029_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGV6n128E4TSBcKBTSrOVuidFK7qIdqM3V0Uruoh2ozdfGjjcZlGT73wvCWkb7wriipabDiAWRnmDxCTdGif089&_nc_ohc=8Bm4OJGPX70Ab7wyC4w&_nc_ht=scontent.fdac96-2.fna&oh=03_AdXlQYO1T53YBT8ElH-6GJxx9yOi2GTYhisOEKuCioDptQ&oe=663A3DC0");
+    padding: 200px;
+    background-size: cover;
+}
+.baner-content{}
+.baner-content h1{}
+.baner-content p{
+    padding: 10px 0px;
+}
+.bton{
+    margin-top: 20px;
+}
+.A1{
+    text-decoration: none;
+    color: #fff;
+    height: 15px;
+    width: 30px;
+    background-color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.A2{
+    text-decoration: none;
+    color:#000;
+    height: 15px;
+    width: 30px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.about{
+    background-color:#87a471;
+    padding: 30px 0px;
+   
+
+}
+
+.about a{
+    padding-top: 20px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 30px;
+}
+.about-left{
+    float: left;
+    width: 50%;
+    margin-top: 40px;
+    padding-top: 20px;
+    margin-top: 70px;
+    font-size: 13px;
+    color: #fff;
+    text-align: justify;
+}
+.about-right{
+    float: right;
+    width: 35%;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.about-right img{
+    height: 200px;
+}
+.services{
+    background-color:#606a64 ;
+    padding: 50px;
+}
+.content{
+    color: #fff;
+}
+.content a{
+border-bottom: 1px solid #fff;
+font-size: 30px;
+font-weight: 900;
+}
+.content h4{
+    padding: 20px 0px;
+    font-size: 25px;
+   
+}
+.content p{
+   font-size: 12px;
+   display: block;
+   margin: auto;
+   width: 400px;
+   padding: 5px 0px;
+   
+}
+.services-left{ 
+    float: left;
+    width: 20%;
+    background-color:#ffffff ;
+    margin-top: 30px;
+    margin-right: 10px;
+   border-radius: 20px;
+   padding: 20px;
+   margin-left: 80px;
+}
+.services-icon samp{
+    height: 130px;
+    float: left;
+    width: 30px;
+    color: aqua;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 20px 0px 10px;
+}
+.services-content{
+    margin-top: 15px;
+    
+}
+.services-content h3{
+    margin-bottom: 10px;
+   color: rgb(29, 27, 24);
+   
+}
+.services-content p{
+   
+    font-weight: 200;
+}
+.proudct{
+    background-color: #87a471;
+    padding: 100px;
+}
+.proudct-contact{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.proudct-left-img{
+    background-image: url("https://scontent.fdac96-2.fna.fbcdn.net/v/t1.15752-9/433952937_785084176589568_6922888405284745346_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFA2TxUpNrHomcqWlaYQDePO7xQ7GDkqh47vFDsYOSqHltp2HMA-zmSIu7g3SUwbKPofJMFeCx2vwKiB1JlACTH&_nc_ohc=-zTi6B0RcmwAb4qG8Te&_nc_ht=scontent.fdac96-2.fna&oh=03_AdWtrAQ9779w1SdelV420UO8DC0ALAXgDqmWoE08gqNs5A&oe=663BA1D2");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+.proudct-left-content{
+    text-align: center; 
+    padding: 30px;
+}
+.proudct-left-content p{
+    color: blue;
+}
+.proudct-left-content h5{
+    color: #fff;
+    padding-top: 10px;
+}
+.proudct-contact p{
+    padding-top: 10px;
+}
+.proudct-contact h3{}
+.proudct-left{
+    float: left;
+    border: 1px solid #fff;
+    width: 48%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.proudct-left img{
+    
+}
+.proudct-right-img{
+    background-image: url("https://scontent.fdac96-2.fna.fbcdn.net/v/t1.15752-9/434011494_761273052641325_7254970755761511890_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG0xlFUz4ZB6y1yJxDjlV86dhKB6HxFhj92EoHofEWGPxqO91LaVhdngmP7Am_Pv_sZMglfQTG9nEvFFqn-VAWk&_nc_ohc=ATL7QJjUzugAb47DCbg&_nc_ht=scontent.fdac96-2.fna&oh=03_AdVEAD16w4592fe-dHHG6Br-ggf7nDcGUJW_qLauMBp42g&oe=663B82A3");
+    height: 400px;
+}
+.proudct-right{
+    float: right;
+    border: 1px solid #fff;
+    width: 48%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img-left{
+    float: left;
+    width:24%;
+}
+.teams{
+    background-color:#5b9776;
+}
+.teams2{
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+}
+.teams2 p{
+    color: #fff;
+  
+    padding-top: 30px;
+    /* text-align: center; */
+    font-size: 30px;
+    
+}
+.teams-left{
+    float: left;
+    width: 33%;
+    margin-top: 100px;
+    text-align: center;
+   
+}
+.teams-left img{
+    height: 200px;
+}
+.teams-icon{
+    display: inline-block;
+}
+.last-content{
+    background-color: #606a64;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.last-content1{}
+.last-content1 h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.last-content1 p{
+    color: #fff;
+    margin: 50px 0px 50px 0px;
+    width: 50%;
+    margin: auto;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.last-content1 a{
+    color: #fff;
+    height: 20px;
+    width: 100px;
+    background-color:#00bc9c;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 3px;
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+    height: 70px;
+    line-height: 70px;
+}
